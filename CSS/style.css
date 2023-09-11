@@ -1,0 +1,78 @@
+/* Align all text and headings to the center */
+h1, p, h2 {
+    text-align: center;
+}
+
+h1 { font-family: Impact, serif;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.established {
+    
+    font-style: italic;
+  }
+
+h2 {
+    font-family: Impact, serif;
+    font-size: 30px;
+  }
+
+
+/* Apply background image to the body */
+body {
+    background-image: url(file:///C:/Users/acer/Desktop/fresh-roasted-coffee-beans.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Center the menu and set its background color */
+.Menu {
+    width: 40%;
+    background-color: burlywood;
+    margin: 0 auto; /* Shorter margin property to center horizontally */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Display Flavor and Price inline within the Item */
+.Item {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between Flavor and Price */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 10px; /* Add some space between items */
+}
+
+/* Set the width and text alignment for Flavor and Price */
+.Flavor , .Dessert {
+    width: 45%; /* Reduce width slightly for better spacing */
+    text-align: left;
+}
+
+.Price {
+    width: 45%; /* Reduce width slightly for better spacing */
+    text-align: right;
+}
+
+#bar {
+    height: 3px;
+    background-color: darkslategrey;
+    border-color: black
+;}
+p, a { font-family: sans-serif}
+
+.Icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+
+  footer {text-align: center }
+  footer { font-size: 10px;}
+
+a {
+    color: black;
+
+  }
